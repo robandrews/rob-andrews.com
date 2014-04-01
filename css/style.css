@@ -1,0 +1,42 @@
+.content{
+  position:relative;
+  top:70px;
+}
+
+.title-card{
+  border-style:solid;
+}
+
+ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+.row{
+  padding-bottom:20px
+}
+
+.about-me{
+  border-style:solid;
+  margin-top:20px
+}
+.resume{
+  border-style:solid;
+  margin-top:20px;
+}
+
+.top-bar{
+  width: 100%;
+  height: 3em;
+  margin: 0;
+  text-align: center;
+} 
+
+.nav-bar {
+  height: auto;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
