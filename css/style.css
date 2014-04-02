@@ -1,6 +1,14 @@
 .content{
+  background-image:url("../img/bg.jpg");
+}
+
+body{
+  background-image:url("../img/bg.jpg");
+}
+
+.content{
   position:relative;
-  top:70px;
+  top:40px;
 }
 
 .title-card{
@@ -59,3 +67,4 @@
   margin-left:10px;
   padding:10px;
 }
+

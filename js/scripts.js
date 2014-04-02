@@ -8,7 +8,6 @@ jQuery(document).ready(function ($) {
     mywindow = $(window);
     htmlbody = $('html,body');
 
-
     $(".row").waypoint(function (event, direction) {   
         slide = $(this).data('slide');
         if (event === 'down') {
@@ -29,9 +28,7 @@ jQuery(document).ready(function ($) {
             scrollTop: $('.slide[data-slide="' + dataslide + '"]').offset().top
         }, 2000, 'easeInOutQuint');
     }
-
-
-
+    
     links.click(function (e) {
         e.preventDefault();
         dataslide = $(this).data('slide');
