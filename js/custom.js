@@ -2,11 +2,7 @@ $(document).foundation();
 
 jQuery(document).ready(function ($) {
 
-    var links = $('.navigation').find('li');
-    slide = $('.slide');
-    button = $('.button');
-    mywindow = $(window);
-    htmlbody = $('html,body');
+    var navItems = $('.nav-bar').find('li');
 
     $(".row").waypoint(function (event, direction) {   
         slide = $(this).data('slide');
@@ -24,23 +20,21 @@ jQuery(document).ready(function ($) {
     
 
     function scrollTo(dataslide) {
-        htmlbody.animate({
-            scrollTop: $('.slide[data-slide="' + dataslide + '"]').offset().top
-        }, 2000, 'easeInOutQuint');
+        $("body").animate({
+            scrollTop: $('.row[data-slide="' + dataslide + '"]').offset().top - 50
+        }, 1000, 'swing');
     }
     
-    links.click(function (e) {
-        e.preventDefault();
-        dataslide = $(this).data('slide');
-        scrollTo(dataslide);
+    navItems.click(function (event) {
+        event.preventDefault();
+        slide = $(this).data('slide');
+        scrollTo(slide);
     });
 
-    button.click(function (e) {
-        e.preventDefault();
-        dataslide = $(this).attr('data-slide');
-        scrollTo(dataslide);
+    button.click(function (event) {
+        event.preventDefault();
+        slide = $(this).attr('data-slide');
+        scrollTo(slide);
 
     });
-
-
 });
