@@ -13,11 +13,6 @@
   padding-left: 1em;
   text-indent: -1em;
 }
-
-.row{
-  padding-bottom:20px
-}
-
 .about-me{
   border-style:solid;
   margin-top:20px
@@ -28,4 +23,39 @@
   border-style:solid;
 }
 
+.nav-bar{
+  margin:0 auto;
+}
 
+.nav-bar li{
+  color:white;
+  padding: 10px;
+}
+
+.nav-bar li.active{
+  color:white;
+  padding: 10px;
+  background-color:blue;
+}
+
+.nav-bar li:hover{
+  color:orange;
+  padding: 10px;
+  cursor:pointer;
+}
+.projects{
+  border-style:solid;
+}
+.contact{
+  border-style:solid;
+}
+
+.resume-title{
+  font-size:1.7em;
+}
+.resume-company{
+  color:gray;
+  font-size:1.3em;
+  margin-left:10px;
+  padding:10px;
+}
