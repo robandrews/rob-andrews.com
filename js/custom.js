@@ -30,11 +30,4 @@ jQuery(document).ready(function ($) {
         slide = $(this).data('slide');
         scrollTo(slide);
     });
-
-    button.click(function (event) {
-        event.preventDefault();
-        slide = $(this).attr('data-slide');
-        scrollTo(slide);
-
-    });
 });
