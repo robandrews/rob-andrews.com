@@ -1,36 +1,53 @@
 .content{
   background-image:url("../img/bg.jpg");
+  position:relative;
+  top:70px;
 }
 
-body{
+.background{
   background-image:url("../img/bg.jpg");
 }
 
-.content{
-  position:relative;
-  top:40px;
+div.row{
+  margin-top:25px;
 }
 
-.title-card{
-  border-style:solid;
+*{
+font-family: 'Metrophobic', sans-serif;
 }
 
+
+#polaroid{
+  background-image:url("../img/noise.png");
+  padding:1px;
+  position:absolute;
+  top:3px;
+  left:2px;
+  right:2px;
+  bottom:290px;
+}
+.card{
+	-webkit-box-shadow:  0px 0px 13px 1px rgba(0, 0, 0, 0.2);
+     box-shadow:  0px 0px 13px 3px rgba(0, 0, 0, 0.2);
+     padding: 25px;
+     background-color: #fff;
+}
 .content ul {
   list-style: none;
   margin-left: 0;
   padding-left: 1em;
   text-indent: -1em;
 }
-.about-me{
-  border-style:solid;
-  margin-top:20px
-}
-.resume{
-  border-style:solid;
-  margin-top:20px;
-  border-style:solid;
+
+#mugshot{
+  display: block;
+  margin: 0px auto;
 }
 
+#business-card{
+  position:relative;
+  top:60px;
+}
 .nav-bar{
   margin:0 auto;
 }
@@ -57,7 +74,10 @@ body{
 .contact{
   border-style:solid;
 }
-
+.date{
+  font-size:1.5em;
+  border-style:solid;
+}
 .resume-title{
   font-size:1.7em;
 }
