@@ -15,7 +15,7 @@ jQuery(document).ready(function ($) {
             $('.nav-bar li[data-slide="' + slide + '"]').addClass('active').next().removeClass('active');
         }
 
-    }, {offset:50});
+    }, {offset:65});
  
     
 

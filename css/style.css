@@ -74,3 +74,6 @@ font-family: 'Metrophobic', sans-serif;
   padding:10px;
 }
 
+li.project-card{
+  text-align:center;
+}
